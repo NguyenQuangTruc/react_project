@@ -1,4 +1,6 @@
-let a: number[] = [2, 5];
-let b: number = 1;
+function isPalindrome(x: number): boolean {
 
-console.log(a[0] + b);
+    let xDaoNguoc : string = x.toString().split('').reverse().join('')
+    return xDaoNguoc == x.toString()
+};
+
